@@ -1,0 +1,47 @@
+@import "tabulator-tables/dist/css/tabulator.min.css";
+/* @import "tabulator-tables/dist/css/tabulator_site.css"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  font-family: Poppins;
+  font-size: 12px;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.active {
+  @apply rounded hover:bg-secondary focus:bg-primary;
+}
+
+/*  */
+/* .tabulator-header {
+  background-color: var(--tw-bg-base-200);
+  color: var(--tw-text-base-content);
+} */
+
+.tabulator-row:hover {
+  @apply bg-primary text-primary-content;
+}
+
+/* .tabulator-cell { */
+/* border: 1px solid var(--tw-border-base-300); */
+/* @apply border border-base-300; */
+/* } */
+
+/* .tabulator-footer { */
+/* background-color: var(--tw-bg-base-100); */
+/* @apply bg-red-600; */
+/* } */
